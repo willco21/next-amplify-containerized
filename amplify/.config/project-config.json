@@ -1,0 +1,18 @@
+{
+  "projectName": "nextamplifycontainer",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "out",
+      "BuildCommand": "npm run build",
+      "StartCommand": "npm start",
+      "ServerlessContainers": true
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
